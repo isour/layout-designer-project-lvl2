@@ -53,6 +53,7 @@
 .row {
   display: flex;
   margin: 0 -20px;
+  width: 100%;
 }
 
 .col {
@@ -93,6 +94,30 @@
 
 .mr-1r {
   margin-right: 1rem;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.mb-2875r {
+  margin-bottom: 2.875rem;
+}
+
+.mb-200 {
+  margin-bottom: 200px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mb-64 {
+  margin-bottom: 64px;
 }
 
 @include mobile {

@@ -1,0 +1,55 @@
+.pricing {
+  grid-gap: 50px;
+
+  @include tablet {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+}
+
+.pricing-item {
+  padding: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+  border-radius: 1rem;
+
+  @include tablet {
+    padding-top: 1.5rem;
+  }
+}
+
+.bg-free {
+  background-image: url(../images/subscribe_1.png);
+  background-size: cover;
+}
+
+.bg-standart {
+  background-image: url(../images/subscribe_2.png);
+  background-size: cover;
+}
+
+.bg-premium {
+  background-image: url(../images/subscribe_3.png);
+  background-size: cover;
+}
+
+.pricing-value {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0;
+  font-size: 4rem;
+  line-height: 1;
+}
+
+.pricing-label {
+  font-size: 2rem;
+  line-height: 1.5;
+  padding-left: 1rem;
+}
+
+.pricing-footer {
+  font-size: 0.8rem;
+  line-height: 1.5;
+}

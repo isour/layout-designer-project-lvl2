@@ -44,3 +44,15 @@ h2,
     font-size: 18px;
   }
 }
+
+h3,
+.h3 {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+
+  @include tablet {
+    font-size: 1.5rem;
+  }
+}
