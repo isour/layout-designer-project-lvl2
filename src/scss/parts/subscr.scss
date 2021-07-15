@@ -1,9 +1,10 @@
 .pricing {
+  display: flex;
+  flex-direction: column;
   grid-gap: 50px;
 
   @include tablet {
     display: grid;
-    grid-gap: 50px;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   }
 }

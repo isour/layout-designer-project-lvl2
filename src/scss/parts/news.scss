@@ -1,0 +1,39 @@
+.news-item {
+  @include tablet {
+    grid-gap: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.news-img {
+  display: block;
+  width: 100%;
+  height: auto;
+
+  @include tablet {
+    flex: 1 1 48%;
+  }
+}
+
+.news-content {
+  @include tablet {
+    flex: 1 1 48%;
+  }
+}
+
+.news-title {
+  @include tablet {
+    font-size: 1.875rem;
+    text-transform: capitalize;
+  }
+}
+
+.author {
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.author-name {
+  text-decoration: none;
+}

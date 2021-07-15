@@ -3,6 +3,7 @@
 @import 'base.scss';
 @import 'framework.scss';
 @import 'parts/subscr.scss';
+@import 'parts/news.scss';
 
 .bg-hero {
   background-image: url(../images/banner.png);
@@ -120,4 +121,11 @@
 
 .btn-border {
   border: 1px solid #fff;
+}
+
+.btn-border-gray {
+  border: 1px solid var(--color_grey);
+  color: var(--color_grey);
+  font-size: 0.8rem;
+  padding: 16px 30px;
 }
