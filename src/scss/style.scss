@@ -4,6 +4,7 @@
 @import 'framework.scss';
 @import 'parts/subscr.scss';
 @import 'parts/news.scss';
+@import 'parts/app.scss';
 
 .bg-hero {
   background-image: url(../images/banner.png);
@@ -128,4 +129,13 @@
   color: var(--color_grey);
   font-size: 0.8rem;
   padding: 16px 30px;
+}
+
+.btn-red {
+  color: #fff;
+  background-color: var(--color_orange2);
+  border-radius: 2rem;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 16px 40px;
 }

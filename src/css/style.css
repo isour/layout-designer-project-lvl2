@@ -3,6 +3,7 @@
   --color_bg: #08020d;
   --color_grey: #E0E0E0;
   --color_orange: #F89202;
+  --color_orange2: #923A18;
 }
 
 * {
@@ -78,6 +79,10 @@ h3,
   color: var(--color_orange);
 }
 
+.color-gray {
+  color: var(--color_grey);
+}
+
 .w-100 {
   width: 100%;
 }
@@ -104,6 +109,10 @@ h3,
 
 .pb-200 {
   padding-bottom: 200px;
+}
+
+.pb-100p {
+  padding-bottom: 100px;
 }
 
 .pos-absolute {
@@ -197,7 +206,7 @@ h3,
 }
 
 .fxd-reverse {
-  flex-direction: reverse;
+  flex-direction: row-reverse;
 }
 
 .text-normal {
@@ -235,6 +244,10 @@ h3,
 
   .mb-xs-1r {
     margin-bottom: 1rem;
+  }
+
+  .mt-xs-1r {
+    margin-top: 1rem;
   }
 }
 @media (min-width: 769px) {
@@ -378,6 +391,15 @@ h3,
   text-decoration: none;
 }
 
+.app-img {
+  display: block;
+}
+
+.app-p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
 .bg-hero {
   background-image: url(../images/banner.png);
   background-position: center;
@@ -497,6 +519,15 @@ h3,
   color: var(--color_grey);
   font-size: 0.8rem;
   padding: 16px 30px;
+}
+
+.btn-red {
+  color: #fff;
+  background-color: var(--color_orange2);
+  border-radius: 2rem;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 16px 40px;
 }
 
 /*# sourceMappingURL=style.css.map */
