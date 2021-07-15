@@ -213,6 +213,10 @@ h4,
   margin-bottom: 64px;
 }
 
+.mb-0 {
+  margin-bottom: 0;
+}
+
 .mb-100 {
   margin-bottom: 100px;
 }
@@ -275,6 +279,19 @@ h4,
 
 .w-200 {
   width: 200px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.row-gap-25 {
+  row-gap: 25px;
+}
+
+.col-gap-50 {
+  column-gap: 50px;
 }
 
 @media (max-width: 768px) {
@@ -374,7 +391,31 @@ h4,
   .mr-xs-15r {
     margin-right: 1.5rem;
   }
+
+  .grid-md-double {
+    grid-template-columns: 1fr 1fr;
+  }
 }
+.bg-hero {
+  background-image: url(../images/banner.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-artist {
+  background-image: url("../images/Morten Harket.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-form {
+  max-width: 570px;
+}
+
+.hero-title {
+  color: #fff;
+}
+
 .pricing {
   display: flex;
   flex-direction: column;
@@ -497,16 +538,38 @@ h4,
   margin-bottom: 1rem;
 }
 
-.bg-hero {
-  background-image: url(../images/banner.png);
-  background-position: center;
-  background-size: cover;
+.track {
+  display: flex;
+  align-items: center;
 }
-
-.bg-artist {
-  background-image: url("../images/Morten Harket.png");
-  background-position: center;
-  background-size: cover;
+.track-img {
+  flex: 0 0 55px;
+  width: 55px;
+  height: 55px;
+  transform: translateZ(0);
+}
+.track-info {
+  flex: 1 1 auto;
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+  padding-right: 1rem;
+}
+.track-text {
+  flex: 1 1 auto;
+}
+.track-name {
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.track-author {
+  font-size: 0.875rem;
+  color: var(--color_grey);
+}
+.track-time {
+  font-size: 0.875rem;
+  color: var(--color_grey);
 }
 
 .header {
@@ -568,14 +631,6 @@ h4,
 .search-input::placeholder {
   color: #757575;
   opacity: 1;
-}
-
-.hero-form {
-  max-width: 570px;
-}
-
-.hero-title {
-  color: #fff;
 }
 
 .form-input {

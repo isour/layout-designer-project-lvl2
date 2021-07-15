@@ -136,6 +136,10 @@
   margin-bottom: 64px;
 }
 
+.mb-0 {
+  margin-bottom: 0;
+}
+
 .mb-100 {
   margin-bottom: 100px;
 }
@@ -198,6 +202,19 @@
 
 .w-200 {
   width: 200px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.row-gap-25 {
+  row-gap: 25px;
+}
+
+.col-gap-50 {
+  column-gap: 50px;
 }
 
 @include mobile {
@@ -297,5 +314,9 @@
 
   .mr-xs-15r {
     margin-right: 1.5rem;
+  }
+
+  .grid-md-double {
+    grid-template-columns: 1fr 1fr;
   }
 }
