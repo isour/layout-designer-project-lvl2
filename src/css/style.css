@@ -269,6 +269,14 @@ h4,
   margin-bottom: 2.1rem;
 }
 
+.filter-invert {
+  filter: invert(1);
+}
+
+.w-200 {
+  width: 200px;
+}
+
 @media (max-width: 768px) {
   .flex-xs-column {
     flex-direction: column;
@@ -288,6 +296,14 @@ h4,
 
   .mt-xs-1r {
     margin-top: 1rem;
+  }
+
+  .mt-xs-15r {
+    margin-top: 1.5rem;
+  }
+
+  .mb-xs-15r {
+    margin-bottom: 1.5rem;
   }
 }
 @media (min-width: 769px) {
@@ -349,6 +365,14 @@ h4,
 
   .fxd-md-reverse {
     flex-direction: row-reverse;
+  }
+
+  .mt-md-3r {
+    margin-top: 3rem;
+  }
+
+  .mr-xs-15r {
+    margin-right: 1.5rem;
   }
 }
 .pricing {
@@ -479,6 +503,12 @@ h4,
   background-size: cover;
 }
 
+.bg-artist {
+  background-image: url("../images/Morten Harket.png");
+  background-position: center;
+  background-size: cover;
+}
+
 .header {
   color: #fff;
 }
@@ -488,6 +518,11 @@ h4,
   line-height: 1.18;
 }
 
+.nav {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
 @media (min-width: 769px) {
   .nav {
     display: flex;
@@ -497,7 +532,7 @@ h4,
 
 .nav-item {
   list-style: none;
-  margin-bottom: 3px;
+  margin-bottom: 4px;
   padding: 0;
   font-size: 0.6875rem;
   line-height: 1.18;
@@ -541,11 +576,6 @@ h4,
 
 .hero-title {
   color: #fff;
-}
-@media (max-width: 768px) {
-  .hero-title {
-    margin-top: 48px;
-  }
 }
 
 .form-input {
@@ -601,6 +631,22 @@ h4,
   color: #fff;
   font-size: 0.8rem;
   padding: 16px 40px;
+}
+
+.btn-mix {
+  background-color: #512B9F;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.btn-favorites {
+  background-color: var(--color_orange2);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
 }
 
 .footer {

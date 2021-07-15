@@ -192,6 +192,14 @@
   margin-bottom: 2.1rem;
 }
 
+.filter-invert {
+  filter: invert(1);
+}
+
+.w-200 {
+  width: 200px;
+}
+
 @include mobile {
   .flex-xs-column {
     flex-direction: column;
@@ -211,6 +219,14 @@
 
   .mt-xs-1r {
     margin-top: 1rem;
+  }
+
+  .mt-xs-15r {
+    margin-top: 1.5rem;
+  }
+
+  .mb-xs-15r {
+    margin-bottom: 1.5rem;
   }
 }
 
@@ -273,5 +289,13 @@
 
   .fxd-md-reverse {
     flex-direction: row-reverse;
+  }
+
+  .mt-md-3r {
+    margin-top: 3rem;
+  }
+
+  .mr-xs-15r {
+    margin-right: 1.5rem;
   }
 }

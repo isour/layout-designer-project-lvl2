@@ -12,6 +12,12 @@
   background-size: cover;
 }
 
+.bg-artist {
+  background-image: url("../images/Morten Harket.png");
+  background-position: center;
+  background-size: cover;
+}
+
 .header {
   color: #fff;
 }
@@ -22,6 +28,10 @@
 }
 
 .nav {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+
   @include tablet {
     display: flex;
     flex-direction: row;
@@ -30,7 +40,7 @@
 
 .nav-item {
   list-style: none;
-  margin-bottom: 3px;
+  margin-bottom: 4px;
   padding: 0;
   font-size: 0.6875rem;
   line-height: 1.18;
@@ -74,10 +84,6 @@
 
 .hero-title {
   color: #fff;
-
-  @include mobile {
-    margin-top: 48px;
-  }
 }
 
 .hero-subtitle {
@@ -140,6 +146,21 @@
   padding: 16px 40px;
 }
 
+.btn-mix {
+  background-color: #512B9F;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.btn-favorites {
+  background-color: var(--color_orange2);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+}
 
 .footer {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
