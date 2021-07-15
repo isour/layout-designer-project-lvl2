@@ -1,0 +1,36 @@
+@import 'mixins.scss';
+
+:root {
+  --color_txt: #cacaca;
+  --color_bg: #08020d;
+}
+
+body {
+  color: var(--color_txt);
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+
+  background-color: var(--color_bg);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.5;
+  text-transform: uppercase;
+
+  @include tablet {
+    font-size: 30px;
+  }
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 1.5;
+  text-transform: uppercase;
+
+  @include tablet {
+    font-size: 18px;
+  }
+}
