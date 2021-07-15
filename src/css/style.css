@@ -69,6 +69,14 @@ h3,
   }
 }
 
+h4,
+.h4 {
+  margin: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+}
+
 .container {
   max-width: 1240px;
   margin-left: auto;
@@ -134,7 +142,7 @@ h3,
 .row {
   display: flex;
   margin: 0 -20px;
-  width: 100%;
+  min-width: 100%;
 }
 
 .col {
@@ -177,6 +185,10 @@ h3,
   margin-right: 1rem;
 }
 
+.mr-15r {
+  margin-right: 1.5rem;
+}
+
 .mb-50 {
   margin-bottom: 50px;
 }
@@ -213,6 +225,10 @@ h3,
   font-weight: normal;
 }
 
+.mb-2r {
+  margin-bottom: 2rem;
+}
+
 .mb-3r {
   margin-bottom: 3rem;
 }
@@ -225,8 +241,32 @@ h3,
   margin-top: 0;
 }
 
-.fxd-reverse {
-  flex-direction: row-reverse;
+.pt-2r {
+  padding-top: 2rem;
+}
+
+.pt-25r {
+  padding-top: 2.5rem;
+}
+
+.pb-2r {
+  padding-bottom: 2rem;
+}
+
+.pt-4r {
+  padding-top: 4rem;
+}
+
+.pb-25r {
+  padding-bottom: 2.5rem;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.mb-21r {
+  margin-bottom: 2.1rem;
 }
 
 @media (max-width: 768px) {
@@ -289,6 +329,26 @@ h3,
 
   .mb-md-2r {
     margin-bottom: 2rem;
+  }
+
+  .flex-md-row {
+    flex-direction: row;
+  }
+
+  .col-md-4 {
+    flex: 0 0 25%;
+  }
+
+  .d-md-flex {
+    display: flex;
+  }
+
+  .mr-md-1r {
+    margin-right: 1rem;
+  }
+
+  .fxd-md-reverse {
+    flex-direction: row-reverse;
   }
 }
 .pricing {
@@ -391,8 +451,21 @@ h3,
   text-decoration: none;
 }
 
+@media (min-width: 769px) {
+  .app {
+    display: flex;
+  }
+}
+
 .app-img {
   display: block;
+}
+
+@media (min-width: 769px) {
+  .app-content {
+    flex: 0 0 50%;
+    padding-top: 1rem;
+  }
 }
 
 .app-p {
@@ -528,6 +601,36 @@ h3,
   color: #fff;
   font-size: 0.8rem;
   padding: 16px 40px;
+}
+
+.footer {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+
+.menu {
+  padding-left: 0;
+}
+
+.menu-item {
+  list-style: none;
+  line-height: 1.49;
+}
+
+.menu-link {
+  text-decoration: none;
+}
+
+.footer-top {
+  position: relative;
+}
+.footer-top::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-bottom: 1px solid #fff;
 }
 
 /*# sourceMappingURL=style.css.map */

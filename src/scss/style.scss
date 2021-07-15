@@ -139,3 +139,37 @@
   font-size: 0.8rem;
   padding: 16px 40px;
 }
+
+
+.footer {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+
+
+.menu {
+  padding-left: 0;
+}
+
+
+.menu-item {
+  list-style: none;
+  line-height: 1.49;
+}
+
+.menu-link {
+  text-decoration: none;
+}
+
+.footer-top {
+  position: relative;
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-bottom: 1px solid #fff;
+  }
+}

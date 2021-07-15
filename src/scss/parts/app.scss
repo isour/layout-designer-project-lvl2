@@ -1,9 +1,18 @@
+.app {
+  @include tablet {
+    display: flex;
+  }
+}
+
 .app-img {
   display: block;
 }
 
-.app-text {
-
+.app-content {
+  @include tablet {
+    flex: 0 0 50%;
+    padding-top: 1rem;
+  }
 }
 
 .app-p {
