@@ -100,6 +100,10 @@ h4,
   text-transform: uppercase;
 }
 
+.text-capitalize {
+  text-transform: capitalize;
+}
+
 .text-bold {
   font-weight: 700;
 }
@@ -783,6 +787,7 @@ h4,
 }
 
 .menu-link {
+  display: block;
   text-decoration: none;
 }
 
