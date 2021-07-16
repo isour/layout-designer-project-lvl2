@@ -1,5 +1,6 @@
 .album {
   display: block;
+
   text-decoration: none;
 
   &-img {
@@ -15,8 +16,8 @@
   }
 
   &-name {
-    font-size: 1.125rem;
     font-weight: 700;
+    font-size: 1.125rem;
     text-transform: capitalize;
   }
 
