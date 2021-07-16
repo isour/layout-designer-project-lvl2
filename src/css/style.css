@@ -327,6 +327,10 @@ h4,
   margin-bottom: 0.9rem;
 }
 
+.mb-11r {
+  margin-bottom: 1.1rem;
+}
+
 @media (max-width: 768px) {
   .flex-xs-column {
     flex-direction: column;
