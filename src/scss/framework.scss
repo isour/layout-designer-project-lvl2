@@ -257,6 +257,10 @@
   .grid-xs-2 {
     grid-template-columns: repeat(auto-fit, calc(50% - 50px));
   }
+
+  .mb-xs-1r {
+    margin-bottom: 1rem;
+  }
 }
 
 @include tablet {
