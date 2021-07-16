@@ -1,11 +1,5 @@
 @import 'mixins.scss';
 
-.container {
-  max-width: 1240px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .color-orange {
   color: var(--color_orange);
 }
@@ -106,6 +100,10 @@
 
 .mb-15r {
   margin-bottom: 1.5rem;
+}
+
+.mb-13r {
+  margin-bottom: 1.3rem;
 }
 
 .mr-1r {
@@ -381,7 +379,7 @@
   }
 
   .grid-md-4 {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, calc(25% - 50px));
   }
 
   .pb-md-26r {
