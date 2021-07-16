@@ -10,11 +10,12 @@
   "dependencies": {},
   "devDependencies": {
     "htmlhint": "^0.14.2",
-    "stylelint": "^13.13.1",
+    "stylelint": "^13.9.0",
+    "stylelint-config-idiomatic-order": "^8.1.0",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^4.1.0",
-    "stylelint-scss": "^3.19.0",
+    "stylelint-scss": "^3.18.0",
     "surge": "^0.21.7"
   },
   "author": "Nikita Mikhaylov",

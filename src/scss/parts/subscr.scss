@@ -13,6 +13,7 @@
   padding: 1.5rem;
   padding-top: 1rem;
   padding-bottom: 4rem;
+
   border-radius: 1rem;
 
   @include tablet {
@@ -40,14 +41,16 @@
   align-items: flex-start;
   justify-content: center;
   margin: 0;
+
   font-size: 4rem;
   line-height: 1;
 }
 
 .pricing-label {
+  padding-left: 1rem;
+
   font-size: 2rem;
   line-height: 1.5;
-  padding-left: 1rem;
 }
 
 .pricing-footer {

@@ -1,40 +1,39 @@
 .track {
   display: flex;
   align-items: center;
+
   text-decoration: none;
 
   &-img {
     flex: 0 0 55px;
     width: 55px;
     height: 55px;
+
     transform: translateZ(0);
   }
 
   &-info {
-    flex: 1 1 auto;
-    padding-left: 1rem;
     display: flex;
+    flex: 1 1 auto;
     align-items: center;
-  }
-
-  &-text {
-
+    padding-left: 1rem;
   }
 
   &-name {
-    font-size: 0.8rem;
     font-weight: 700;
+    font-size: 0.8rem;
     text-transform: uppercase;
   }
 
   &-author {
-    font-size: 0.875rem;
     color: var(--color_grey);
+    font-size: 0.875rem;
   }
 
   &-time {
-    font-size: 0.8rem;
-    color: var(--color_grey);
     margin-left: auto;
+
+    color: var(--color_grey);
+    font-size: 0.8rem;
   }
 }

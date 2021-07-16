@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+
   color: var(--color_txt);
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
@@ -16,10 +17,10 @@ a {
 }
 
 .container {
-  padding: 0 20px;
-  margin-left: auto;
-  margin-right: auto;
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 20px;
 
   @include tablet {
     width: 1240px;
@@ -29,6 +30,7 @@ a {
 h1,
 .h1 {
   margin: 0;
+
   font-weight: 700;
   font-size: 3.75rem;
   line-height: 1.5;
@@ -42,6 +44,7 @@ h1,
 h2,
 .h2 {
   margin: 0;
+
   font-weight: 700;
   font-size: 38px;
   line-height: 1.5;
@@ -55,9 +58,10 @@ h2,
 h3,
 .h3 {
   margin: 0;
+
+  font-weight: 400;
   font-size: 1rem;
   line-height: 1.5;
-  font-weight: 400;
 
   @include tablet {
     font-size: 1.5rem;
@@ -67,7 +71,8 @@ h3,
 h4,
 .h4 {
   margin: 0;
+
   font-weight: 700;
-  text-transform: uppercase;
   font-size: 1.125rem;
+  text-transform: uppercase;
 }

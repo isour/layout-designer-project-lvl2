@@ -760,32 +760,39 @@ h4,
 
 .form-input {
   display: block;
-  background: none;
-  border: 2px solid #CACACA;
-  box-sizing: border-box;
-  border-radius: 3px;
-  flex-grow: 1;
   flex-basis: 270px;
-  color: #fff;
+  flex-grow: 1;
+  box-sizing: border-box;
   padding: 14px 20px;
+
+  color: #fff;
+
+  font-weight: 700;
   font-size: 0.875rem;
   line-height: 1.29;
-  font-weight: 700;
+
+  background: none;
+  border: 2px solid var(--color_txt);
+  border-radius: 3px;
 }
+
 .form-input::placeholder {
   color: #fff;
+
   opacity: 1;
 }
 
 .btn {
   display: inline-block;
-  border-radius: 5px;
   padding: 20px 30px;
+
   color: #fff;
   text-align: center;
   text-decoration: none;
+
   border: 1px solid transparent;
   border-radius: 5px;
+
   cursor: pointer;
 }
 
@@ -798,37 +805,44 @@ h4,
 }
 
 .btn-border-gray {
-  border: 1px solid var(--color_grey);
+  padding: 16px 30px;
+
   color: var(--color_grey);
   font-size: 0.8rem;
-  padding: 16px 30px;
+
+  border: 1px solid var(--color_grey);
 }
 
 .btn-red {
-  color: #fff;
-  background-color: var(--color_orange2);
-  border-radius: 2rem;
+  padding: 16px 40px;
+
   color: #fff;
   font-size: 0.8rem;
-  padding: 16px 40px;
+
+  background-color: var(--color_orange2);
+  border-radius: 2rem;
 }
 
 .btn-mix {
-  background-color: #512B9F;
-  text-align: left;
   display: flex;
   align-items: center;
+
   font-size: 0.8rem;
+  text-align: left;
   text-transform: uppercase;
+
+  background-color: #512B9F;
 }
 
 .btn-favorites {
-  background-color: var(--color_orange2);
-  text-align: left;
   display: flex;
   align-items: center;
+
   font-size: 0.8rem;
+  text-align: left;
   text-transform: uppercase;
+
+  background-color: var(--color_orange2);
 }
 
 .footer {
@@ -840,8 +854,9 @@ h4,
 }
 
 .menu-item {
-  list-style: none;
   line-height: 1.5;
+
+  list-style: none;
 }
 
 .menu-img {
@@ -855,14 +870,18 @@ h4,
 .footer-top {
   position: relative;
 }
+
 .footer-top::after {
-  content: "";
-  display: block;
   position: absolute;
-  left: 0;
   right: 0;
   bottom: 0;
+  left: 0;
+
+  display: block;
+
   border-bottom: 1px solid #fff;
+
+  content: "";
 }
 
 /*# sourceMappingURL=style.css.map */
