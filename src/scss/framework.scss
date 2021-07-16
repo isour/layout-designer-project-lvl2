@@ -217,6 +217,10 @@
   column-gap: 50px;
 }
 
+.mb-1r {
+  margin-bottom: 1rem;
+}
+
 @include mobile {
   .flex-xs-column {
     flex-direction: column;
@@ -244,6 +248,10 @@
 
   .mb-xs-15r {
     margin-bottom: 1.5rem;
+  }
+
+  .grid-xs-2 {
+    grid-template-columns: repeat(auto-fit, calc(50% - 50px));
   }
 }
 
@@ -318,5 +326,9 @@
 
   .grid-md-double {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-md-4 {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
