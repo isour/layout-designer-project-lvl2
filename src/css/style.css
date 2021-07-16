@@ -628,7 +628,6 @@ h4,
   padding-left: 1rem;
   display: flex;
   align-items: center;
-  padding-right: 1rem;
 }
 .track-name {
   font-size: 0.8rem;
@@ -640,7 +639,7 @@ h4,
   color: var(--color_grey);
 }
 .track-time {
-  font-size: 0.875rem;
+  font-size: 0.8rem;
   color: var(--color_grey);
   margin-left: auto;
 }
@@ -687,6 +686,7 @@ h4,
 .similar-title {
   font-size: 1.125rem;
   font-weight: 700;
+  text-transform: capitalize;
 }
 .similar-count {
   color: var(--color_grey);
