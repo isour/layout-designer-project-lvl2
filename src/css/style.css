@@ -625,7 +625,7 @@ h4,
   flex: 1 1 auto;
 }
 .track-name {
-  font-size: 0.875rem;
+  font-size: 0.8rem;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -656,6 +656,8 @@ h4,
 }
 .album-name {
   font-size: 1.125rem;
+  font-weight: 700;
+  text-transform: capitalize;
 }
 .album-year {
   color: var(--color_grey);
@@ -668,6 +670,12 @@ h4,
 .similar-img {
   width: 100%;
   display: block;
+}
+@media (min-width: 769px) {
+  .similar-img {
+    width: 250px;
+    height: 250px;
+  }
 }
 .similar-title {
   font-size: 1.125rem;
@@ -799,6 +807,7 @@ h4,
   display: flex;
   align-items: center;
   font-size: 0.8rem;
+  text-transform: uppercase;
 }
 
 .btn-favorites {
@@ -807,6 +816,7 @@ h4,
   display: flex;
   align-items: center;
   font-size: 0.8rem;
+  text-transform: uppercase;
 }
 
 .footer {
