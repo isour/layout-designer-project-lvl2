@@ -464,7 +464,7 @@ h4,
   }
 
   .grid-md-double {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, calc(50% - 50px));
   }
 
   .grid-md-4 {
