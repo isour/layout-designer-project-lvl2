@@ -6,11 +6,6 @@
   &-img {
     display: block;
     width: 100%;
-
-    @include tablet {
-      width: 250px;
-      height: 250px;
-    }
   }
 
   &-title {
